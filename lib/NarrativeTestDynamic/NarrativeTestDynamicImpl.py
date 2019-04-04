@@ -42,7 +42,6 @@ class NarrativeTestDynamic:
 
         # Any configuration parameters that are important should be parsed and
         # saved in the constructor.
-        self.callback_url = os.environ['SDK_CALLBACK_URL']
         self.shared_folder = config['scratch']
         logging.basicConfig(format='%(created)s %(levelname)s: %(message)s',
                             level=logging.INFO)
